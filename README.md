@@ -34,4 +34,13 @@ Ini adalah class Hewan di package Model class Hewan ini adalah sebuah blueprint 
 <br>
 <img width="561" height="629" alt="image" src="https://github.com/user-attachments/assets/4583a2bd-a5a5-4fdb-a98a-8835737becf5" />
 <img width="637" height="742" alt="image" src="https://github.com/user-attachments/assets/6c56895b-6992-46df-861b-ce106eda44d4" />
+<br>
+class HewanService ini berada di package service yang berfungsi untuk menyimpan logika atau operasi CRUD (Create, Read, Update, Delete) terhadap data hewan. Di dalamnya ada ArrayList daftarHewan yang berfungsi sebagai wadah penyimpanan seluruh objek Hewan, serta Scanner input untuk membaca masukan dari pengguna.
 
+Method pertama, tambahHewan(), digunakan untuk menambahkan data hewan baru. Program meminta pengguna mengisi nama, jenis, habitat, dan umur hewan, lalu membuat objek Hewan berdasarkan input tersebut, kemudian menambahkannya ke dalam daftarHewan.
+
+Method kedua, lihatHewan(), digunakan untuk menampilkan seluruh daftar hewan. Jika daftarHewan kosong, akan ditampilkan pesan "Belum ada data hewan", tetapi jika ada, program akan mencetak semua hewan dengan nomor urut menggunakan perulangan for.
+
+Method ketiga, ubahHewan(), berfungsi untuk memperbarui data hewan. Pertama, program menampilkan daftar hewan, kemudian meminta pengguna memilih nomor hewan yang ingin diubah. Jika nomor valid, program meminta data baru (nama, jenis, habitat, umur), membuat objek Hewan baru, lalu menggantikan data lama dengan data baru pada posisi yang dipilih.
+Terakhir, hapusHewan() digunakan untuk menghapus data hewan. Program kembali menampilkan daftar hewan dan meminta pengguna memilih nomor yang ingin dihapus. Jika nomor valid, data hewan akan dihapus dari daftarHewan.
+Secara keseluruhan, class ini menjadi “otak” yang menangani seluruh operasi terhadap data hewan, sedangkan class Main hanya menyediakan menu untuk memanggil method-method ini, dan class Hewan menyimpan struktur data hewannya.
