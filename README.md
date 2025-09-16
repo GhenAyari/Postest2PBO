@@ -28,3 +28,4 @@ case 4 → memanggil hapusHewan() untuk menghapus data hewan tertentu.<br>
 case 5 → menampilkan pesan keluar program.<br>
 default → menangani input yang tidak valid (selain angka 1–5).<br>
 <br>
+<img width="742" height="914" alt="image" src="https://github.com/user-attachments/assets/fbda05bb-cff6-479e-aa4f-828475546523" />
