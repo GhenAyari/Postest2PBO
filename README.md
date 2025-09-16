@@ -44,3 +44,28 @@ Method kedua, lihatHewan(), digunakan untuk menampilkan seluruh daftar hewan. Ji
 Method ketiga, ubahHewan(), berfungsi untuk memperbarui data hewan. Pertama, program menampilkan daftar hewan, kemudian meminta pengguna memilih nomor hewan yang ingin diubah. Jika nomor valid, program meminta data baru (nama, jenis, habitat, umur), membuat objek Hewan baru, lalu menggantikan data lama dengan data baru pada posisi yang dipilih.
 Terakhir, hapusHewan() digunakan untuk menghapus data hewan. Program kembali menampilkan daftar hewan dan meminta pengguna memilih nomor yang ingin dihapus. Jika nomor valid, data hewan akan dihapus dari daftarHewan.
 Secara keseluruhan, class ini menjadi “otak” yang menangani seluruh operasi terhadap data hewan, sedangkan class Main hanya menyediakan menu untuk memanggil method-method ini, dan class Hewan menyimpan struktur data hewannya.
+<br>
+## Alur
+<img width="566" height="377" alt="image" src="https://github.com/user-attachments/assets/9cd4426a-b9b9-4925-aacd-6e3ac508db72" />
+<br>
+Ini adalah outputnya, terdapat 5 pilihan, di sini memilih pilihan 1. Tambah Hewan, lalu masukkan nama hewan, jenis hewan, umur hewan, habitat hewan.
+<br><br>
+<img width="800" height="258" alt="image" src="https://github.com/user-attachments/assets/8235aa96-e236-41be-8cd9-b3857d487b37" />
+<br>
+Ini adalah pilihan ke 2. Lihat daftar hewan, nanti akan muncul daftar hewan apa aja.
+<br><br>
+<img width="813" height="712" alt="image" src="https://github.com/user-attachments/assets/21aae380-8022-4ea8-9e8e-06610ce60dc6" />
+<br>
+Ini adalah pilihan ke 3. Ubah data hewan, nanti masukkan nomor berapa hewan yang mau diubah lalu ganti apa yang mau diganti.
+<br><br>
+<img width="780" height="598" alt="image" src="https://github.com/user-attachments/assets/c84a14f3-0e76-4505-bb95-39f2160fc40c" />
+<br>
+Ini adalah pilihan ke 4. Hapus data hewan, tinggal hapus hewan nomor berapa yang mau dihapus.
+<br><br>
+<img width="790" height="258" alt="image" src="https://github.com/user-attachments/assets/2388663f-9f9b-42ab-b564-d340c8e8c9a0" />
+<br>
+Ini adalah pilihan ke 5. Menu keluar
+
+
+
+
