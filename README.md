@@ -27,3 +27,4 @@ case 3 → memanggil ubahHewan() untuk mengedit data hewan tertentu.<br>
 case 4 → memanggil hapusHewan() untuk menghapus data hewan tertentu.<br>
 case 5 → menampilkan pesan keluar program.<br>
 default → menangani input yang tidak valid (selain angka 1–5).<br>
+<br>
